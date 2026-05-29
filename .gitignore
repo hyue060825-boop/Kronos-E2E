@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large experiment artifacts
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+outputs/
+checkpoints/
+models/
+qlib_data/
+
+# Local/runtime files
+.DS_Store
+.ipynb_checkpoints/
+*.tmp
+*.bak
+
+# Keep curated logs in logs/, ignore accidental extra logs elsewhere
+*.log
+!logs/*.log
